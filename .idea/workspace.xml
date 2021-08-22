@@ -19,9 +19,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pages/GoogleSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/pages/GoogleSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/testSteps/AllureSetUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/testrunner/TestRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/testrunner/TestRun.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/practice-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/practice-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/testrunner.TestRun.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
@@ -30,13 +29,8 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/pages/GoogleSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/pages/GoogleSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/testSteps/AllureSetUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/testrunner/TestRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/testrunner/TestRun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/Check.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Check.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testrunner/TestRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testrunner/TestRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +117,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="JUnit.TestRun">
+  <component name="RunManager" selected="Gradle.practice [testSuite]">
     <configuration name="Scenario: Just check" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Check.feature" />
@@ -188,6 +182,12 @@
     </configuration>
     <configuration name="practice [testSuite]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
+        <option name="env">
+          <map>
+            <entry key="CUCUMBER_PUBLISH_ENABLED" value="true" />
+            <entry key="CUCUMBER_PUBLISH_TOKEN" value="c34a4cc2-f551-4f4d-863a-1ca0c962e25d" />
+          </map>
+        </option>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
@@ -221,17 +221,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Scenario: Just check" />
       <item itemvalue="Gradle.practice [testSuite]" />
-      <item itemvalue="JUnit.TestRun" />
       <item itemvalue="Gradle.practice [dependencies]" />
       <item itemvalue="Gradle.practice [testSuite] (1)" />
-      <item itemvalue="Cucumber Java.Scenario: Just check" />
+      <item itemvalue="JUnit.TestRun" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.practice [testSuite]" />
         <item itemvalue="JUnit.TestRun" />
         <item itemvalue="Cucumber Java.Scenario: Just check" />
-        <item itemvalue="Gradle.practice [testSuite]" />
         <item itemvalue="Gradle.practice [testSuite] (1)" />
         <item itemvalue="Gradle.practice [dependencies]" />
       </list>
@@ -274,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629636953326</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update commit">
+      <created>1629638073811</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629638073811</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
