@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation("io.github.bonigarcia:webdrivermanager:4.4.3")
+    implementation group: 'com.codeborne', name: 'selenide', version: '5.23.1'
+    testImplementation 'io.cucumber:cucumber-java:6.11.0'
+    testImplementation 'io.cucumber:cucumber-junit:6.11.0'
+    implementation group: 'io.cucumber', name: 'cucumber-core', version: '6.11.0'
+    testImplementation group: 'io.cucumber', name: 'cucumber-picocontainer', version: '6.11.0'
+    testImplementation 'org.junit.vintage:junit-vintage-engine:5.7.2'
+    testImplementation group: 'io.qameta.allure', name: 'allure-selenide', version: '2.14.0'
+    testImplementation group: 'io.qameta.allure', name: 'allure-junit5', version: '2.14.0'
+    testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.32'
+}
+
+configurations {
+    cucumberRuntime {
+        extendsFrom testImplementation
+    }
+}
+
+task testSuite() {
+    dependsOn assemble, testClasses
+    doLast {
+        javaexec {
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = [
+                    '--plugin', 'pretty',
+                    '--plugin', 'html:target/cucumber-report.html',
+                    '--glue', 'testSteps',
+                    'src\\test\\java\\features']
+        }
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
