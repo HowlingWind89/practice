@@ -8,7 +8,7 @@ Feature: Check
     And I click confirmation dialogue accept button
     And I type search text
 
-  @ABC
+  @TEST
   Scenario: check test
     And I click confirmation dialogue accept button
     And I type search text
