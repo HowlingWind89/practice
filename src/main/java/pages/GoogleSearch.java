@@ -12,6 +12,6 @@ public class GoogleSearch {
     }
 
     public SelenideElement ConfirmationDialogueAcceptButton() {
-        return $(By.xpath("//button[@id='L2AGLb']"));
+        return $(By.xpath("//button[@id='L2AGLa']"));
     }
 }
