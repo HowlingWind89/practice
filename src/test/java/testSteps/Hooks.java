@@ -14,8 +14,8 @@ public class Hooks {
     }
 
     @Before
-    @Given("I open a browser")
-    public void openGooglePage() {
+    @Given("I open Fitekin base page")
+    public void openFitekInBasePage() {
         environment.setUp();
     }
 

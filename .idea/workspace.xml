@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c9006d-a38d-4ca6-a9df-3c693c6cb21f" name="Changes" comment="update commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/20109372-0493-4e05-b304-9387f118e9b7-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/36c0b665-600c-4e6b-8fc2-2d869a492748-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FitekinBasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/BasePage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testSteps/FitekinBasePageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -19,8 +23,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/environment/EnvironmentSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/environment/EnvironmentSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pages/GoogleSearch.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/testSteps/AllureSetUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/testSteps/GooglePageSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/testSteps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/testSteps/Hooks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/practice-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/practice-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/testrunner.TestRun.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
@@ -29,8 +41,18 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/pages/GoogleSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/pages/GoogleSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/environment/EnvironmentSetup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/pages/GoogleSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/testSteps/GooglePageSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/testSteps/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/testrunner/TestRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/environment/EnvironmentSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/environment/EnvironmentSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/GoogleSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Check.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testSteps/GooglePageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testSteps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSteps/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +139,27 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Gradle.practice [testSuite]">
+  <component name="RunManager" selected="JUnit.TestRun">
+    <configuration name="Scenario: Fitekin base page language and country selection" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/BasePage.feature" />
+      <option name="GLUE" value="testSteps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="practice.test" />
+      <option name="NAME_FILTER" value="^Fitekin base page language and country selection$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Fitekin base page language and country selection$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Fitekin base page language and country selection" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Just check" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Check.feature" />
@@ -137,27 +179,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="practice [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="practice [testSuite] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -222,18 +243,18 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Scenario: Just check" />
+      <item itemvalue="Cucumber Java.Scenario: Fitekin base page language and country selection" />
       <item itemvalue="Gradle.practice [testSuite]" />
-      <item itemvalue="Gradle.practice [dependencies]" />
       <item itemvalue="Gradle.practice [testSuite] (1)" />
       <item itemvalue="JUnit.TestRun" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.practice [testSuite]" />
         <item itemvalue="JUnit.TestRun" />
-        <item itemvalue="Cucumber Java.Scenario: Just check" />
         <item itemvalue="Gradle.practice [testSuite] (1)" />
-        <item itemvalue="Gradle.practice [dependencies]" />
+        <item itemvalue="Cucumber Java.Scenario: Fitekin base page language and country selection" />
+        <item itemvalue="Gradle.practice [testSuite]" />
+        <item itemvalue="Cucumber Java.Scenario: Just check" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629638073811</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update commit">
+      <created>1629638782905</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629638782905</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

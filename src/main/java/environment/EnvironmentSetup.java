@@ -9,7 +9,7 @@ public class EnvironmentSetup {
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         System.setProperty("selenide.browser", "Chrome");
-        open("https://google.com");
+        open("https://test.fitekin.com/login/");
     }
 
     public void tearDown() {
