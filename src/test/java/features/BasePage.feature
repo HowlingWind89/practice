@@ -7,3 +7,4 @@ Feature: Base Page
   Scenario: Fitekin base page language and country selection
     And I click Country menu
     And I select Estonia as Country in the list
+    And I click Continue button

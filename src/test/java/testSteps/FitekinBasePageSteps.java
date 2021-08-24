@@ -20,4 +20,9 @@ public class FitekinBasePageSteps {
     public void clickAcceptButton(String countryAndLanguageName,String menuName) {
         fitekinBasePage.CountryAndLanguageInTheList(countryAndLanguageName, menuName).click();
         }
+
+        @And("I click Continue button")
+    public void clickContinueButton() {
+        fitekinBasePage.ContinueButton().click();
+        }
     }

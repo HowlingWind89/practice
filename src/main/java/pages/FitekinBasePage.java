@@ -14,4 +14,8 @@ public class FitekinBasePage {
     public SelenideElement CountryAndLanguageInTheList( String countryAndLanguageName, String menuName) {
         return $(By.xpath("//div[@data-id='login.choose" + menuName + ".option']//span[text()='" + countryAndLanguageName + "']"));
     }
+
+    public SelenideElement ContinueButton() {
+        return $(By.xpath("//button[@data-id='login.continue']"));
+    }
 }
