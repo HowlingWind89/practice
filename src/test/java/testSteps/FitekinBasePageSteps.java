@@ -1,7 +1,6 @@
 package testSteps;
 
 import io.cucumber.java.en.And;
-import org.checkerframework.checker.nullness.qual.AssertNonNullIfNonNull;
 import org.junit.Assert;
 import pages.FitekinBasePage;
 
