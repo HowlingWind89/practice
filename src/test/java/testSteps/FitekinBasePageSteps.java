@@ -1,6 +1,8 @@
 package testSteps;
 
 import io.cucumber.java.en.And;
+import org.checkerframework.checker.nullness.qual.AssertNonNullIfNonNull;
+import org.junit.Assert;
 import pages.FitekinBasePage;
 
 public class FitekinBasePageSteps {
@@ -24,5 +26,10 @@ public class FitekinBasePageSteps {
         @And("I click Continue button")
     public void clickContinueButton() {
         fitekinBasePage.ContinueButton().click();
+        }
+
+        @And("I check that {} page is opened")
+    public void checkPageTitle(String pageName) {
+        Assert.assertEquals(pageName, fitekinBasePage.PageTitle(pageName).getText());
         }
     }

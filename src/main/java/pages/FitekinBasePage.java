@@ -18,4 +18,8 @@ public class FitekinBasePage {
     public SelenideElement ContinueButton() {
         return $(By.xpath("//button[@data-id='login.continue']"));
     }
+
+    public SelenideElement PageTitle(String pageName) {
+        return $(By.xpath("//h2[text()='" + pageName + "']"));
+    }
 }
