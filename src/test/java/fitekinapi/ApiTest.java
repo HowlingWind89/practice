@@ -1,8 +1,5 @@
 package fitekinapi;
 
-import io.cucumber.java.en.And;
-import io.restassured.response.Response;
-
 public class ApiTest {
 
     public void getCurrency() {
