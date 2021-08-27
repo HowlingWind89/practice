@@ -18,6 +18,9 @@ dependencies {
     testImplementation group: 'io.cucumber', name: 'cucumber-picocontainer', version: '6.11.0'
     testImplementation 'org.junit.vintage:junit-vintage-engine:5.7.2'
     testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.32'
+    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '4.4.0'
+    testImplementation group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
+
 }
 
 configurations {
