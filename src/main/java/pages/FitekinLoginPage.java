@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.$;
 public class FitekinLoginPage {
 
     public SelenideElement loginField() {
-        return $(By.xpath("//input[@data-id='email']"));
+        return $(By.xpath("//input[@data-id='username']"));
     }
 
     public SelenideElement passwordField() {

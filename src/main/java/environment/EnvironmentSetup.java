@@ -6,6 +6,7 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.WebDriverRunner;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.remote.CapabilityType;
+import java.util.Objects;
 import static com.codeborne.selenide.Selenide.*;
 
 public class EnvironmentSetup {
@@ -27,7 +28,7 @@ public class EnvironmentSetup {
         /*Configuration.headless = true;*/
         open("https://test.fitekin.com/login/");
 
-        bmp = WebDriverRunner.getSelenideProxy().getProxy();
+        bmp = Objects.requireNonNull(WebDriverRunner.getSelenideProxy()).getProxy();
 
         // remember body of requests (body is not stored by default because it can be large)
         bmp.setHarCaptureTypes(CaptureType.getAllContentCaptureTypes());
