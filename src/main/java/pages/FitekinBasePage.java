@@ -7,19 +7,19 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class FitekinBasePage {
 
-    public SelenideElement FitekinBasePageCountryAndLanguageMenu(String menuName) {
+    public SelenideElement fitekinBasePageCountryAndLanguageMenu(String menuName) {
         return $(By.xpath("//div[@data-id='login.choose" + menuName + "']"));
     }
 
-    public SelenideElement CountryAndLanguageInTheList( String countryAndLanguageName, String menuName) {
+    public SelenideElement countryAndLanguageInTheList(String countryAndLanguageName, String menuName) {
         return $(By.xpath("//div[@data-id='login.choose" + menuName + ".option']//span[text()='" + countryAndLanguageName + "']"));
     }
 
-    public SelenideElement ContinueButton() {
+    public SelenideElement continueButton() {
         return $(By.xpath("//button[@data-id='login.continue']"));
     }
 
-    public SelenideElement PageTitle(String pageName) {
+    public SelenideElement pageTitle(String pageName) {
         return $(By.xpath("//h2[text()='" + pageName + "']"));
     }
 }
