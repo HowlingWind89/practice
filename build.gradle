@@ -41,7 +41,8 @@ task testSuite() {
                     '--plugin', 'pretty',
                     '--plugin', 'html:target/cucumber-report.html',
                     '--glue', 'testSteps',
-                    'src\\test\\java\\features']
+                    'src\\test\\java\\features',
+                    '--tags', '@Veriff']
         }
     }
 }

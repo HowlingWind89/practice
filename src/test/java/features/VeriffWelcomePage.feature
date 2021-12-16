@@ -27,6 +27,11 @@ Feature: Veriff Welcome Page
     Then Question dialogue is closed and title Leaving so soon? is not displayed
 
     Examples:
-    | optionName |
-    | InContext  |
-    | Redirect   |
+      | optionName |
+      | InContext  |
+      | Redirect   |
+
+  @Veriff
+  Scenario: Get veriff authorization token
+    And I click Veriff Me button
+    And I get veriff authorization token
