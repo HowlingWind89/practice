@@ -3,14 +3,15 @@ package veriffPages;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.switchTo;
 
 public class VeriffDemoWelcomePage {
 
-    public SelenideElement veriffWelcomePageTitle() {
+    public SelenideElement welcomePageTitle() {
         return $(By.xpath("//div[@id='root']//h3"));
     }
 
-    public SelenideElement veriffWelcomePageInputFields(String fieldName) {
+    public SelenideElement welcomePageInputFields(String fieldName) {
         return $(By.xpath("//span[text()='" + fieldName + "']/..//input"));
     }
 
@@ -36,5 +37,9 @@ public class VeriffDemoWelcomePage {
 
     public SelenideElement selectedLanguageOrDocumentType(String elementName) {
         return $(By.xpath("//span[text()='" + elementName + "']/.."));
+    }
+
+    public void switchToIFrame() {
+        switchTo().frame("veriffFrame");
     }
 }
