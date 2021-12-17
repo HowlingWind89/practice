@@ -1,11 +1,12 @@
 package testSteps;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
 import veriffApiTests.VeriffApiTest;
 
 public class VeriffApiTestSteps {
 
-    private VeriffApiTest veriffApiTest;
+    private final VeriffApiTest veriffApiTest;
 
     public VeriffApiTestSteps(VeriffApiTest veriffApiTest) {
         this.veriffApiTest = veriffApiTest;
@@ -14,5 +15,10 @@ public class VeriffApiTestSteps {
     @And("I get veriff authorization token")
     public void getVeriffAuthorizationToken() {
         veriffApiTest.getAuthorizationToken();
+    }
+
+    @Then("I get session configuration")
+    public void getSessionConfiguration() {
+        veriffApiTest.getConfiguration();
     }
 }

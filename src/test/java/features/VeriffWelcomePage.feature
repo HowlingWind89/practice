@@ -35,3 +35,7 @@ Feature: Veriff Welcome Page
   Scenario: Get veriff authorization token
     And I click Veriff Me button
     And I get veriff authorization token
+    And I create a new file
+    And I write data in to the file
+    And I read data from file
+    Then I get session configuration

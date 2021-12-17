@@ -21,7 +21,8 @@ public class ResponseHandler {
         return given()
                 .header("Content-Type", "application/json")
                 .header("Accept", acceptHeader)
-                .header("Authorization-Token", authorizationToken);
+                /*.header("Authorization-Token", authorizationToken)*/
+                .header("authorization", authorizationToken);
     }
 
     public static Response getPostApiResponse (String acceptHeader, String payloadBody, String url, String responseBodyContent,
