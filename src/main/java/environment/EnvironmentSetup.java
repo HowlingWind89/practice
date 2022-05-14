@@ -1,7 +1,11 @@
 package environment;
 
 import com.browserup.bup.BrowserUpProxy;
+import com.codeborne.selenide.Configuration;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.remote.CapabilityType;
+
+import java.security.DrbgParameters;
 
 import static com.codeborne.selenide.Selenide.*;
 
@@ -22,7 +26,7 @@ public class EnvironmentSetup {
         System.setProperty("selenide.browser", "Chrome");
 
         /*Configuration.headless = true;*/
-        open(WebAddresses.VeriffAddress);
+        open(WebAddresses.BetssonUrl);
 
         /*bmp = Objects.requireNonNull(WebDriverRunner.getSelenideProxy()).getProxy();
 
