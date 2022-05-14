@@ -3,11 +3,12 @@ package testSteps;
 
 import betssonPages.MainPage;
 import com.codeborne.selenide.Condition;
+import environment.EnvironmentSetup;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class BetssonMainPageTests {
+public class BetssonMainPageTests extends EnvironmentSetup {
 
     private final MainPage mainPage;
 

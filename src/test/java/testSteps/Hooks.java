@@ -1,9 +1,11 @@
 package testSteps;
 
+import com.codeborne.selenide.logevents.SelenideLogger;
 import environment.EnvironmentSetup;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
+import io.qameta.allure.selenide.AllureSelenide;
 
 public class Hooks {
     private final EnvironmentSetup environment;
@@ -14,9 +16,9 @@ public class Hooks {
     }
 
     @Before
-    @Given("I open Fitekin base page")
     public void openFitekInBasePage() {
         environment.setUp();
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
     @After
