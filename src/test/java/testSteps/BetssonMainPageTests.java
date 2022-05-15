@@ -3,12 +3,12 @@ package testSteps;
 
 import betssonPages.MainPage;
 import com.codeborne.selenide.Condition;
-import environment.EnvironmentSetup;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import utils.ConfigReaderUtil;
 
-public class BetssonMainPageTests extends EnvironmentSetup {
+public class BetssonMainPageTests {
 
     private final MainPage mainPage;
 
@@ -27,13 +27,13 @@ public class BetssonMainPageTests extends EnvironmentSetup {
         mainPage.LoginModal().shouldBe(Condition.visible);
     }
 
-    @And("I enter {} as username")
-    public void enterUserName(String userName) {
-        mainPage.UserNameField().sendKeys(userName);
+    @And("I enter betsson username")
+    public void enterUserName() {
+        mainPage.UserNameField().sendKeys(ConfigReaderUtil.USER_NAME);
     }
-    @And("I enter {} as password")
-    public void enterPassword(String password) {
-        mainPage.UserNameField().sendKeys(password);
+    @And("I enter betsson password")
+    public void enterPassword() {
+        mainPage.UserNameField().sendKeys(ConfigReaderUtil.PASSWORD);
     }
 
     @Then("I click login submit button")

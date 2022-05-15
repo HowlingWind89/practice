@@ -5,6 +5,7 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.remote.CapabilityType;
+import utils.ConfigReaderUtil;
 
 import java.security.DrbgParameters;
 
@@ -27,7 +28,7 @@ public class EnvironmentSetup {
         System.setProperty("selenide.browser", "Chrome");
 
         /*Configuration.headless = true;*/
-        open(WebAddresses.BetssonUrl);
+        open(ConfigReaderUtil.BETSSON_URL);
 
         /*bmp = Objects.requireNonNull(WebDriverRunner.getSelenideProxy()).getProxy();
 
