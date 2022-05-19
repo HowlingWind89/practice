@@ -33,7 +33,7 @@ public class BetssonMainPageTests {
     }
     @And("I enter betsson password")
     public void enterPassword() {
-        mainPage.UserNameField().sendKeys(ConfigReaderUtil.PASSWORD);
+        mainPage.PasswordField().sendKeys(ConfigReaderUtil.PASSWORD);
     }
 
     @Then("I click login submit button")
